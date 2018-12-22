@@ -1,0 +1,13 @@
+[Unit]
+Description=slackbot-homeserver
+After=syslog.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/slackbot-homeserver
+ExecStart=/opt/slackbot-homeserver/slackbot-homeserver.sh
+TimeoutStopSec=5
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target

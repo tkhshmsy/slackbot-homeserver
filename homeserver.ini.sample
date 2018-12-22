@@ -1,0 +1,11 @@
+[slack]
+team: xxxxxx
+channel: xxxxxx
+user: xxxxxx
+
+[chromecast]
+friendly_name: Chromecast
+
+[shortcut]
+radio_ex_no1: https://drive.google.com/uc?id=xxxxx1
+radio_ex_no2: https://drive.google.com/uc?id=xxxxx2

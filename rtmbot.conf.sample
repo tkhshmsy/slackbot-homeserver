@@ -1,0 +1,4 @@
+DEBUG: True # make this False in release
+SLACK_TOKEN: "API TOKEN FOR YOUR BOT"
+ACTIVE_PLUGINS:
+    - rtmbot-plugins.homeserver.HomeServerPlugin
